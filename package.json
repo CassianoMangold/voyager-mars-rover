@@ -1,0 +1,24 @@
+{
+  "name": "mars-rover",
+  "version": "1.0.0",
+  "description": "Mars Hover Navigation Program",
+  "main": "navigate.js",
+  "scripts": {
+    "start": "node app/navigate.js",
+    "test": "./node_modules/.bin/mocha --recursive --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassianoMangold/voyager-mars-rover.git"
+  },
+  "author": "Cassiano Mangold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassianoMangold/voyager-mars-rover/issues"
+  },
+  "homepage": "https://github.com/CassianoMangold/voyager-mars-rover#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
